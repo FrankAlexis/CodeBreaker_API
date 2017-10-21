@@ -5,6 +5,7 @@ beforeEach(function() {
   CodeBreaker.setSecret('1234');
 });
 
+
 describe('CodeBreaker', function() {
   it('should return XXXX if 1234 is sended', function() {
     let result = CodeBreaker.codeBreaker(1234);
